@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+$primaryColor: #292929;
+$secondaryColor: #00FF75;
+$light: #fff;
+.main {
+    min-height: 100vh;
+    background-color: $primaryColor;
+    color: $light;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    &__list {
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+  
+        &__item {
+            margin-left: 20px;
+            a {
+                text-decoration: none;
+                color: $light;
+                transition: .4s ease-in-out;
+
+                &:hover {
+                    opacity: .4;
+                }
+            }
+       
+        }
+    }
+}
+
+.span {
+    display: block;
+    color: $secondaryColor;
+    font-size: .8rem;
+    position: relative;
+
+}
+.article {
+    max-width: 80%;
+    height: 100%;
+    // background-color: $light;
+    // color: $primaryColor;
+    margin: 0 auto;
+    text-align: center;
+    p {
+        text-align: justify;
+    }
+}
+
+.lados {
+    width: 30%;
+
+}
+
+// tabela
+
+.pagenumber {
+    display: none;
+}
+.table {
+    width: 100%;
+    margin-top: 1rem;
+}
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    transition: .3s ease-in-out;
+  }
+   
+  tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  }
+   
+  tr:first-child {
+    border-top:none;
+  }
+  
+  tr:last-child {
+    border-bottom:none;
+  }
+   
+  tr:nth-child(odd) td {
+    background:#EBEBEB;
+  }
+   
+  tr:nth-child(odd):hover td {
+    background:#4E5066;
+  }
+  
+  tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+  }
+   
+  tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+  }
+   
+  td {
+    background:#FFFFFF;
+    padding:10px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    // text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+  }
+  
+  td:last-child {
+    border-right: 0px;
+  }
+  
+
+.list {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    background-color: $primaryColor;
+    color: $light;
+}
