@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+$primaryColor: #292929;
+$secondaryColor: #00FF75;
+$light: #fff;
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Poppins", sans-serif;
-}
-$primaryColor: #292929;
-$secondaryColor: #00FF75;
-$light: #fff;
-.main {
     min-height: 100vh;
     background-color: $primaryColor;
     color: $light;
@@ -24,6 +25,7 @@ $light: #fff;
     text-align: center;
     padding: 15px 0;
     font-size: 1.5rem;
+
     &__list {
         list-style: none;
         font-size: 1rem;
@@ -40,7 +42,6 @@ $light: #fff;
                     opacity: .4;
                 }
             }
-       
         }
     }
 }
@@ -69,6 +70,23 @@ $light: #fff;
 
 }
 
+// ------------ ARTYKUŁY -------------------
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto; 
+  width: 70%;
+  margin-top: 20px;
+
+  aside {
+    width: 30%;
+  }
+
+  article {
+    width: 70%;
+  }
+}
+
 // tabela
 
 .pagenumber {
@@ -80,7 +98,7 @@ $light: #fff;
 }
 tr {
     border-top: 1px solid #C1C3D1;
-    border-bottom-: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
     color:#666B85;
     font-size:16px;
     font-weight:normal;

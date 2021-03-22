@@ -8,9 +8,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.main {
   min-height: 100vh;
   background-color: #292929;
   color: #fff;
@@ -79,6 +76,25 @@ body {
   width: 30%;
 }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.container aside {
+  width: 30%;
+}
+
+.container article {
+  width: 70%;
+}
+
 .pagenumber {
   display: none;
 }
@@ -90,7 +106,7 @@ body {
 
 tr {
   border-top: 1px solid #C1C3D1;
-  border-bottom-: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
   color: #666B85;
   font-size: 16px;
   font-weight: normal;
