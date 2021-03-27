@@ -54,9 +54,25 @@ body {
   opacity: .4;
 }
 
+.span {
+  display: block;
+  color: #00FF75;
+  font-size: .8rem;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
 /* table */
 table th, table td {
   text-align: center;
+}
+
+table thead {
+  background-color: #fff;
 }
 
 .table-striped tbody tr:nth-of-type(2n+1) {
@@ -64,7 +80,7 @@ table th, table td {
 }
 
 table tr:nth-child(even) {
-  background-color: #BEF2F5;
+  background-color: #00FF75;
 }
 
 .pagination li:hover {
@@ -77,9 +93,9 @@ table tbody tr {
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
   z-index: 3;
-  color: #fff;
+  color: #292929;
   cursor: default;
-  background-color: #337ab7;
+  background-color: #00FF75;
   border-color: #337ab7;
 }
 
@@ -89,9 +105,9 @@ table tbody tr {
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
+  color: #292929;
   text-decoration: none;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #00FF75;
 }
 /*# sourceMappingURL=lista.css.map */
