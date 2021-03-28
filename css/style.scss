@@ -329,3 +329,20 @@ label:before {
 }
 // a {color: rgba(0,0,0,.4)}  
 // a:hover {color: rgba(0,0,0,.2)}
+
+// LINKI DO YOUTUBE
+
+.youtube {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  &__link {
+    margin-top: 1rem;
+    a {
+      text-decoration: none;
+
+    }
+  }
+}
