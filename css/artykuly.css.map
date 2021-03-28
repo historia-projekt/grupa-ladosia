@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,iFAAI;AAMZ,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,KAAK,EAAE,GAAG;CACb;;AAGD,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "artykuly.scss"
+    ],
+    "names": [],
+    "file": "artykuly.css"
+}
