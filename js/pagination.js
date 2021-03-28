@@ -138,14 +138,14 @@ $('.pagination [data-page="'+i+'"]').show();
 
 $(function() {
 // Just to append id number for each row
-$('table tr:eq(0)').prepend('<th> Numer </th>');
+    $('table tr:eq(0)').prepend('<th> Numer </th>');
 
-var id = 0;
+    var id = 0;
 
-$('table tr:gt(0)').each(function() {
-id++;
-$(this).prepend('<td>' + id + '</td>');
-});
+    $('table tr:gt(0)').each(function() {
+        id++;
+        $(this).prepend('<td class="numer">' + id + '</td>');
+    });
 });
 
 //  Developed By Yasser Mas

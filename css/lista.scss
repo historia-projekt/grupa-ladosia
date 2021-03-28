@@ -4,55 +4,27 @@ $secondaryColor: #00FF75;
 $light: #fff;
 
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-    min-height: 100vh;
-    background-color: $primaryColor;
-    color: $light;
-}
-
-.menu {
+// ------------ ARTYKUŁY -------------------
+.container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 1.5rem;
-
-    &__list {
-        list-style: none;
-        font-size: 1rem;
-        display: flex;
+    margin-top: 20px;
+    width: 100%;
   
-        &__item {
-            margin-left: 20px;
-            a {
-                text-decoration: none;
-                color: $light;
-                transition: .4s ease-in-out;
-
-                &:hover {
-                    opacity: .4;
-                }
-            }
-        }
+    aside {
+      width: 30%;
     }
-}
+  
+    article {
+      width: 70%;
+    }
+  }
 
-
-.span {
-    display: block;
+h2 {
+    margin-top: 20px;
+    font-size: 2rem;
     color: $secondaryColor;
-    font-size: .8rem;
-    position: relative;
-
 }
 
 h3 {
@@ -60,9 +32,18 @@ h3 {
     font-style: italic;
 }
 
+.footer {
+    text-align: center;
+    background-color: $primaryColor;
+    color: $light;
+}
 
 /* table */@at-root
 table th , table td{
+    text-align: left;
+}
+
+.numer {
     text-align: center;
 }
 
