@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -96,6 +96,7 @@ h1 {
   text-align: center;
   background-color: #292929;
   color: #fff;
+  font-size: 0.7rem;
 }
 
 .logo {
