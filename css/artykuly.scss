@@ -14,12 +14,15 @@ $light: #fff;
 
 
 aside {
-    width: 40%;
+    width: 30%;
 }
 
 .article {
-    width: 60%;
+    width: 70%;
     text-align: center;
+    background-color: #fff;
+    color: #292929;
+    padding: 15px;
 }
 
 .container-article {
@@ -106,4 +109,7 @@ ul {
 
     .image-container:hover {
         opacity: .7;
+    }
+    a {
+        text-decoration: none;
     }
