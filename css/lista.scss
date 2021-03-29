@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 $primaryColor: #292929;
 $secondaryColor: #00FF75;
+$lessSaturatedGreen: #6fffb2;
 $light: #fff;
 
 
@@ -56,7 +57,7 @@ table thead {
 }
 
 table tr:nth-child(even){
-    background-color: $secondaryColor;
+    background-color: $lessSaturatedGreen;
 }
 
 .pagination li:hover{
