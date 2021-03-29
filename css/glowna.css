@@ -19,12 +19,44 @@
 .section {
   background: #31A66C;
   width: 80vw;
-  max-width: 40rem;
+  max-width: 50rem;
   min-width: 390px;
-  height: 25rem;
-  margin: 4rem auto;
+  height: 32.2rem;
+  margin: 1rem auto;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.section .youtube__link {
+  margin-bottom: 40px;
+}
+
+.section a {
+  font-family: Poppins;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 0 #00FF75;
+          box-shadow: 0 5px 0 #00FF75;
+  color: #292929;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.section a:hover {
+  background-color: #6fffb2;
+}
+
+.section a:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  top: 5px;
+}
+
+.section img {
+  height: 90%;
 }
 
 article {
