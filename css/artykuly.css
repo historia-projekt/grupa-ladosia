@@ -12,11 +12,118 @@
 }
 
 aside {
-  width: 30%;
+  width: 40%;
 }
 
-article {
-  width: 70%;
+.article {
+  width: 60%;
   text-align: center;
+}
+
+.container-article {
+  width: 300px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.cat {
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+}
+
+.card-content {
+  /*   display:flex; */
+  padding: 15px 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.art__list {
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  background: red;
+  padding: 1px 7px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 5px;
+  color: #292929;
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.user {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user .user-img {
+  background: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 1px;
+  color: #292929;
+}
+
+.user .user-info small {
+  font-size: 11px;
+  color: #292929;
+}
+
+.user .user-info span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.image-container {
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  overflow: hidden;
+}
+
+.image-container:hover {
+  opacity: .7;
 }
 /*# sourceMappingURL=artykuly.css.map */

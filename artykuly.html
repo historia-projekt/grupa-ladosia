@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/artykuly.css">
- 
+
     <title>Artykuły</title>
 </head>
 
@@ -52,17 +52,68 @@
     <main class="container">
         <aside>
             <nav>
-                <h3>Artykuły</h3>
-                <ol>
-                    <li><a href="">Nazwa artykułu</a></li>
-                    <li><a href="">Nazwa artykułu</a></li>
-                </ol>
+                <!-- <h3>Artykuły</h3> -->
+                <ul>
+
+                    <li class="art__list">
+                        <div id="root" class="container-article">
+                            <div v-for="data of articles" class="card">
+                                <div class="image-container">
+                                    <img src="./images/article.jpg" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <span class="tag">Historia</span>
+                                    <div class="title">Kim jest grupa Ładosia?</div>
+                                    <p>{{data.content}}</p>
+                                    <div class="user">
+                                        <div class="user-img">
+                                            <img class="cat" src="./images/cat.jpg" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <span>Mikołaj Wiecheć</span>
+                                            <small>2021.03.25</small>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="art__list">
+                        <div id="root" class="container-article">
+                            <div v-for="data of articles" class="card">
+                                <div class="image-container">
+                                    <img src="./images/lados.jpg" alt="Ładoś">
+                                </div>
+                                <div class="card-content">
+                                    <span class="tag">Biografia</span>
+                                    <div class="title">Aleksander Ładoś - biografia</div>
+                                    <p>{{data.content}}</p>
+                                    <div class="user">
+                                        <div class="user-img">
+                                            <img class="cat" src="./images/cat.jpg" alt="">
+                                        </div>
+                                        <div class="user-info">
+                                            <span>Mikołaj Wiecheć</span>
+                                            <small>2021.03.25</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </nav>
         </aside>
 
         <article class="article">
             <h2>Tytuł artykułu</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nulla quas maiores perspiciatis corrupti officiis inventore temporibus a animi aperiam molestias maxime saepe, itaque, debitis optio velit quod explicabo dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nulla quas maiores perspiciatis corrupti
+                officiis inventore temporibus a animi aperiam molestias maxime saepe, itaque, debitis optio velit quod
+                explicabo dolor?</p>
         </article>
     </main>
 
