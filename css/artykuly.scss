@@ -9,24 +9,24 @@ $light: #fff;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 80%;
 }
-
 
 aside {
     width: 30%;
 }
 
 .article {
+    margin-left: 20px;
     width: 70%;
     text-align: center;
     background-color: #fff;
     color: #292929;
-    padding: 15px;
+    padding: 35px;
 }
 
 .container-article {
-    width: 300px;
+    width: 100%;
     cursor: pointer;
 
 }
@@ -40,7 +40,8 @@ ul {
     width: 40px;
 }
 .card-content {
-    /*   display:flex; */
+      display:flex; 
+      align-items: flex-start;
       padding:15px 20px;
       flex-direction:column;
       padding-bottom:10px;
@@ -51,15 +52,17 @@ ul {
     margin-bottom: 1.5rem;
 }
     .tag{
-      background:red;
-      padding:1px 7px;
+      background:$secondaryColor;
+      padding:2px 10px;
       font-size:12px;
-      color:#fff;
+      color:$primaryColor;
       border-radius:40px;
     }
     .title{
       font-weight:bold;
       margin-top:5px;
+      margin-bottom: 5px;
+      padding-bottom: 10px;
         color: $primaryColor;
     }
     .card p{
@@ -70,14 +73,15 @@ ul {
     
     .user{
       position:absolute;
-      bottom:10px;
+      bottom:0px;
       right:20px;
       left:20px;
       display:flex;
       align-items:center;
       gap:10px;
       margin-top:10px;
-      padding-top:10px;
+      padding-top: 5px;
+      margin-bottom: 15px;
       border-top:1px solid rgba(0,0,0,.1);
     }
     .user .user-img{
@@ -105,6 +109,10 @@ ul {
     .image-container {
         transition: .4s ease-in-out;
         overflow: hidden;
+
+        img {
+          width: 100%;
+        }
     }
 
     .image-container:hover {
