@@ -43,6 +43,8 @@
   text-transform: uppercase;
   margin-bottom: 40px;
   border-radius: 20px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .section a:hover {

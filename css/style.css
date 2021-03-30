@@ -110,4 +110,16 @@ h1 {
   text-decoration: none;
   opacity: .4;
 }
+
+.other {
+  list-style: none;
+}
+
+.other li {
+  margin-bottom: 1.5rem;
+}
+
+.bedzin {
+  margin: 10px auto;
+}
 /*# sourceMappingURL=style.css.map */
