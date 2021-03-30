@@ -101,4 +101,12 @@ h1 {
 .logo {
 color: $light;
 text-decoration: none;
+transition: .4s ease-in-out;
+}
+
+.logo:hover {
+  color: $light;
+  text-decoration: none;
+  opacity: .4;
+  
 }

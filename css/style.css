@@ -101,5 +101,13 @@ h1 {
 .logo {
   color: #fff;
   text-decoration: none;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.logo:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: .4;
 }
 /*# sourceMappingURL=style.css.map */
