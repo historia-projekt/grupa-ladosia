@@ -32,7 +32,7 @@
 }
 
 .section a {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   -webkit-box-shadow: 0 5px 0 #00FF75;
           box-shadow: 0 5px 0 #00FF75;
@@ -59,6 +59,27 @@
 
 .section img {
   height: 90%;
+  max-width: 100%;
+}
+
+.wystawa {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wystawa img {
+  height: 60%;
+  max-width: 100%;
+}
+
+.wystawa a {
+  margin-top: 10px;
 }
 
 article {
